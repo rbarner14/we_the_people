@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>{% block title %}PAGE TITLE HERE {% endblock %}</title>
+
+    <style>
+
+      .node {
+        fill: #ccc;
+        stroke-width: 2px;
+      }
+
+      .link {
+        stroke: #777;
+        stroke-width: 2px;
+      }
+
+      text {
+        fill: #000;
+        font: 10px sans-serif;
+        pointer-events: none;
+      }
+
+      #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: red; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+      }
+
+      #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
+
+    </style>
+
+    <!-- Styling. -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Roboto:300,700" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/static/images/ProTag2.png">
+    <!-- Scripts. -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- For Chart.js. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+    <!-- For React. -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/react@15/dist/react.min.js"> </script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+  </head>
+  <body>
+    {% block before_nav %}
+    {% endblock %}
+
+<!--     {% if request.script_root == '' %}
+      <div id="homepage-main">
+    {% elif request.script_root == "producers" or request.script_root == "performers" or request.script_root == "/search_result" %}
+      <div id="other-pages">
+    {% else %}
+      <div id="no-background">
+    {% endif %} -->
+
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-fixed-top">
+        <a class="navbar-brand" href="/">We the People</a>
+        <!-- Toggle Nav bar. -->
+<!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">_list
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/performers">Performers</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="/producers">Producers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/songs">Songs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/network">Network</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/resume">Hire Me!</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" method="GET" action="/search_result">
+            <input class="form-control mr-sm-2" type="search" name="search_str" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+  <!-- {% raw %}progress bar?{% endraw %} -->
+    </header>
+
+        {% block content %}PUT YOUR BODY HERE.{% endblock %}
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+        <script src="/static/top_scroll.js"></script>
+
+<!--       <footer> -->
+        <!-- Show attribution links & trademarks. -->
+ <!--        {% block footer%}   
+          Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
+        {% endblock %} -->
+<!-- 
+      </footer> -->
+  </body>
+</html>
