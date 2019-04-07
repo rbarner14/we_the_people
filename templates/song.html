@@ -12,6 +12,7 @@
     </div>
 
     <!-- Show song album came from, if album exists. -->
+    <br>
     <div class="song-info">
       <div class="song-title" ><i>{{song.song_title}}</i>
         {% if song.performers %} 
@@ -20,11 +21,14 @@
       </div>
       {% if song.albums %}
         <div class="song-album">
-          From the album <a href="/albums/{{ song.albums[0].album_id }}"><i>{{ song.albums[0].album_title }}</i></a>
-        </div>
+          Related Event: <a href="/albums/{{ song.albums[0].album_id }}"><i>{{ song.albums[0].album_title }}</i></a>
+          <br>
+        Status: Complete
         <br> 
+        <br> 
+        </div>
       {% endif %}
-      Produced by:
+      Assigned to:
 
     <!-- Show producer's name and image, with link to producer's page. -->
       {% if song.producers %}

@@ -6,13 +6,36 @@
 {% endblock %}
 
 {% block content %}
-<form id="registration-form" action="/producers">
+<form id="registration-form" action="/songs">
     <div class="form-group">
     <label for="inputAddress">Title</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="Initiative Title">
   </div>
     <div class="form-row">
-    <div class="form-group col-md-4">
+            <div class="form-group col-md-3">
+      <label for="inputState">SDG:</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>1 No Poverty</option>
+        <option>2 Zero Hunger</option>
+        <option>3 Good Health and Well Being</option>
+        <option>4 Quality Education</option>
+         <option>5 Gender Equality</option>
+         <option>6 Clean Water and Sanitation</option>
+         <option>7 Affordable and Clean Energy</option>
+         <option>8 Decent Work and Economic Growth</option>
+         <option>9 Industry, Innovation and Infrastructure</option>
+         <option>10 Reduced Inequalities</option>
+         <option>11 Sustainable Cities and Communities</option>
+         <option>12 Responsible Consumption and Production</option>
+         <option>13 Climate Action</option>
+         <option>14 Life Below Water</option>
+         <option>15 Life on Land</option>
+         <option>16 Peace, Justice, and Strong Instutions</option>
+         <option>17 Partnerships for the Goals</option>
+      </select>
+    </div>
+    <div class="form-group col-md-3">
       <label for="inputState">Assign To:</label>
       <select id="inputState" class="form-control">
         <option selected>Choose...</option>
@@ -138,6 +161,10 @@
       <label for="inputEmail4">Email To (Separate multiple by comma)</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email To...">
     </div>
+        <div class="form-group col-md-3">
+      <label for="inputEmail4">Fundraising Goal</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="$">
+    </div>
   </div>
   <div class="form-group">
     <label for="inputAddress">Address</label>
@@ -213,15 +240,11 @@
       <input type="text" class="form-control" id="inputZip">
     </div>
   </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Accept tickets
-      </label>
-    </div>
+    <div class="form-group">
+    <label for="inputAddress2">Description</label>
+    <textarea class="form-control" rows="5" id="inputAddress2" placeholder="Describe initiative..."></textarea>
   </div>
-  <button type="submit" class="btn btn-primary">Register</button>
+  <button type="submit" class="btn btn-primary">Create</button>
 </form>
 {% endblock %}
 
