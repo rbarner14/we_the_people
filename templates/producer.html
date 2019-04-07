@@ -15,7 +15,7 @@
               <div align= "center" class="artist_name">
                 <!-- Show producer's status depending on their album release years. -->
                 {% if album_years %}
-                  {% if album_years[-1]|int < 2019 %}
+                  {% if producer.producer_id == 200 %}
                     {{producer.producer_name}} <img src="/static/star.png" class="vet-tag" data-toggle="tooltip" data-placement="right" data-delay="-1" title="Industry Vet">
                   {% else %}
                     {{producer.producer_name}}
@@ -33,7 +33,11 @@
               <!-- Show producer's signature. -->
               {% if producer.producer_tag_url %}
                 <div class="signature">
-                  <b>Role</b>: Politician, Mayor of San Francisco
+                  {% if producer.producer_id == 200 %}
+                  <b>Occupation</b>: Politician, Mayor of San Francisco
+                  {% else %}
+                  <b>Occupation</b>: Student, Ida B Wells High School
+                  {% endif %}
                   </br>
                   </br>
                   <b>Recent Speech</b>: 
@@ -42,11 +46,15 @@
                 </div>
               {% endif %}
               <div class="bio">
-                London Nicole Breed (born August 11, 1974) is an American politician from California who is the 45th mayor of the City and County of San Francisco. She formerly served as supervisor for District 5, and was president of the Board of Supervisors from 2015 to 2018.
+                {% if producer.producer_id == 200 %}
+                I am the 45th mayor of the City and County of San Francisco. I formerly served as supervisor for District 5, and was president of the Board of Supervisors from 2015 to 2018.
 
-Raised in poverty in the Western Addition neighborhood of San Francisco, Breed worked in government after college. She was elected to the Board of Supervisors in 2012 (taking office in January 2013), and elected its president in 2015. As president of the Board, Breed, according to the city charter, became the acting mayor of San Francisco following the death of Mayor Ed Lee. She served in this role from December 12, 2017 to January 23, 2018.
+Raised in poverty in the Western Addition neighborhood of San Francisco, I worked in government after college. I was elected to the Board of Supervisors in 2012 (taking office in January 2013), and elected its president in 2015. As president of the Board, I became the acting mayor of San Francisco following the death of Mayor Ed Lee. I served in this role from December 12, 2017 to January 23, 2018.
 
-Breed was the winning candidate in the San Francisco mayoral special election held on June 5, 2018. Breed is the first Black woman and second woman overall to be elected mayor of San Francisco. She was sworn in as mayor on July 11, 2018.
+I was the winning candidate in the San Francisco mayoral special election held on June 5, 2018. I am the first Black woman and second woman overall to be elected mayor of San Francisco. I was sworn in as mayor on July 11, 2018.
+              {% else %}
+                I am a junior at Ida B. Wells High School.  I really care about green energy and cannot wait to become an clean energy engineer.  Today, I help educate my community on how to reduce their carbon footprint.
+              {% endif %}
               </div>
             </div>
           </div>
@@ -62,7 +70,7 @@ Breed was the winning candidate in the San Francisco mayoral special election he
         <div id="page-contents" class="col-sm-9">
           <div id="sub-page-contents">
             {% if producer.songs %}
-              <div class="charts-header">Number of tickets {{ producer.producer_name }} has completed by SDG</div>
+              <div class="charts-header">Number of initiatives {{ producer.producer_name }} has completed by SDG</div>
 
               <!-- Show producer's performer frequency donut chart. -->
               <div class="donut_chart">
@@ -80,7 +88,7 @@ Breed was the winning candidate in the San Francisco mayoral special election he
               
                 <!-- Return songs producer has produced by album and year, if album exists, with links to the songs' pages. -->
               {% if album_years %}
-                <div class="album-header">Albums & EPs</div>
+                <div class="album-header">Events</div>
                 {% for year in album_years %}
                   <div class="year">{{year}}</div>
                   <div class="card-columns">
@@ -108,7 +116,7 @@ Breed was the winning candidate in the San Francisco mayoral special election he
               {% endif %}
 
               <!-- Return song details (title and performer and their respective pages) without albums. -->
-              <div class="singles-header">Singles</div>
+              <!-- <div class="singles-header">Singles</div> -->
               <ul id="singles-list-group-flush" class="list-group list-group-flush">
                 {% for song in producer.songs %}
                   {% if not song.albums %}               

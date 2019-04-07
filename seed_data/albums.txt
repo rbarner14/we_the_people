@@ -12,3 +12,8 @@
 31|Martin Luther King, Jr. Walk|https://s.hdnux.com/photos/01/00/06/63/16805114/5/920x920.jpg|2019|4|11
 32|Prop A|https://nonprofithousing.org/wp-content/uploads/PropA-logo.png|2019|4|11
 33|Prop E|https://vapementors.com/wp-content/uploads/2018/06/Prop-E-San-Francisco-Results.jpg|2019|4|11
+34|Green Energy Conference|http://akhdir.com/wp-content/uploads/2017/05/gg.jpg|2017|11|6
+35|UN General Assembly Meeting: Climate Change|https://yt3.ggpht.com/a-/AAuE7mAOdeY_NdLcYUD3lB7CXF2oLTfcZe7758TgYQ=s900-mo-c-c0xffffffff-rj-k-no|2016|12|5
+36|Earth Day 2016|https://static1.squarespace.com/static/57a0015e5016e13b82adaed6/t/5ad394bd562fa717622da52d/1523815623882/shutterstock_578225767.jpg|2016|4|22
+38|Bye Plastic, Hello Paper|https://images-na.ssl-images-amazon.com/images/I/61iVzyLXaHL._SX425_.jpg|2018|5|11
+39|Clothing Recycling|https://s-i.huffpost.com/gen/4898090/images/n-DOWNSIZE-CLOTHING-628x314.jpg|2018|4|11

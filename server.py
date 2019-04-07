@@ -309,7 +309,7 @@ def performer_list():
     """Show list of performers."""
 
     # Return producers in database; return results alphabetized.
-    performers = Performer.query.order_by("performer_name").all()
+    performers = Performer.query.all()
 
     page, per_page, offset = get_page_args(
             page_parameter="page", per_page_parameter="per_page"

@@ -11,7 +11,7 @@
       <!-- Show matching producers' name and link to their page. -->
       {% if producers %}
       <div class="album-search-sub-container">
-        <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/producers">Producers</a></div>
+        <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/producers">Citizens</a></div>
 
         {% for producer in producers %}
           <div class="list-group">
@@ -24,7 +24,7 @@
       <!-- Show matching performers' name and link to their page. -->
       {% if performers %}
       <div class="album-search-sub-container">
-        <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/performers">Performers</a></div>
+        <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/performers">SDGs</a></div>
 
         {% for performer in performers %}
           <div class="list-group">
@@ -37,7 +37,7 @@
       <!-- Show matching songs' title and link to its page. -->
       {% if songs %}
         <div class="album-search-sub-container">
-          <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/songs">Songs</a></div>
+          <div class="list-subtitle" align="center"><a class="search-result-subtitle" href="/songs">Initiatives</a></div>
           <ul id="list-group">
             {% for song in songs %}
                 <li id="song-list-item" class="list-group-item">
@@ -55,7 +55,7 @@
       <!-- Show matching albums' title and link to its page. -->
       {% if albums %}
           <div class="album-search-sub-container">
-            <div id="album-title-search-result" class="list-subtitle" align="center" class="search-result-subtitle">Albums & EPs</div>
+            <div id="album-title-search-result" class="list-subtitle" align="center" class="search-result-subtitle">Events</div>
             <ul id="list-group">
               {% for album in albums %}
                 <li id="song-list-item" class="list-group-item">
