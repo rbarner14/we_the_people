@@ -545,7 +545,7 @@ def get_graph_data():
 if __name__ == "__main__":
     # debug=True as it has to be True at when DebugToolbarExtension is invoked.
     
-    app.debug = True
+    app.debug = False
 
     connect_to_db(app)
 
