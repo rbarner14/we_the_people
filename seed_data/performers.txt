@@ -1,17 +1,17 @@
-1|Poverty Alleviation
-2|Zero Hunger
-3|Good Health and Well-Being
-4|Quality Education
-5|Gender Equality
-6|Clean Water and Sanitation
-7|Affordable and Clean Energy
-8|Decent Work and Economic Growth
-9|Industry, Innovation, and Infrastructure
-10|Reduced Inequalities
-11|Sustainable Cities and Communities
-12|Responsible Consumption and Production
-13|Climate Action
-14|Life Below Water
-15|Life on Land
-16|Peace, Justice, and Strong Institutions
-17|Partnerships for the Goals
+1|No Poverty|https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-01.png?resize=1200%2C1200&ssl=1
+2|Zero Hunger|https://sustainabledevelopment.un.org/content/dist2/images/E_SDG%20goals_icons-individual-rgb-02.png
+3|Good Health and Well-Being|https://sustainabledevelopment.un.org/content/dist2/images/E_SDG%20goals_icons-individual-rgb-03.png
+4|Quality Education|https://sustainabledevelopment.un.org/content/dist2/images/E_SDG%20goals_icons-individual-rgb-04.png
+5|Gender Equality|https://ec.europa.eu/sustainable-development/sites/eusdgs/files/sdg-icon-goal-05.png
+6|Clean Water and Sanitation|https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2017/10/E_SDG-goals_Goal-06.png?w=1200&ssl=1
+7|Affordable and Clean Energy|https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2017/10/E_SDG-goals_Goal-07.png?w=1200&ssl=1
+8|Decent Work and Economic Growth|https://sustainabledevelopment.un.org/content/dist2/images/E_SDG%20goals_icons-individual-rgb-08.png
+9|Industry, Innovation, and Infrastructure|https://sustainabledevelopment.un.org/content/dist2/images/E_SDG%20goals_icons-individual-rgb-09.png
+10|Reduced Inequalities|https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-10.png?resize=1200%2C1200&ssl=1
+11|Sustainable Cities and Communities|https://sustainabledevelopment.un.org/content/dist2/images/E_SDG%20goals_icons-individual-rgb-11.png
+12|Responsible Consumption and Production|https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-12.png?resize=1200%2C1200&ssl=1
+13|Climate Action|https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-13.png?resize=1200%2C1200&ssl=1
+14|Life Below Water|https://sustainabledevelopment.un.org/content/dist2/images/E_SDG%20goals_icons-individual-rgb-14.png
+15|Life on Land|https://4.bp.blogspot.com/-d7PSKlBZ_jg/WByQQQu8w5I/AAAAAAAAD5U/YJo4sznrdyUGSWcWgVrPOfLUxXK5WzhKgCLcB/s1600/land-use.jpg
+16|Peace, Justice, and Strong Institutions|https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2017/10/E_SDG-goals_Goal-16.png?w=1200&ssl=1
+17|Partnerships for the Goals|https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-17.png?resize=1200%2C1200&ssl=1
