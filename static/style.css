@@ -46,8 +46,8 @@ html, body {
 }
 
 .vet-tag {
-  width: 5%;
-  height: 5%;
+  width: 10%;
+  height: 10%;
 }
 
 .no-results {
@@ -196,7 +196,7 @@ html, body {
 }
 
 .navbar-brand{
-  color: #FAA916;
+  color: #FF0000;
   font-weight: 700;
 }
 
@@ -339,11 +339,11 @@ html, body {
   background: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
-  color: #FAA916;
+  color: #FF0000;
 }
 
 #homepage h1 {
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Bungee', cursive;
   font-size:100px;
   text-shadow: black 0px 0px 10px;
   text-align: center;
@@ -494,7 +494,7 @@ h2 {
 #my-title {
   font-family: 'Roboto', 'sans-serif';
   font-weight: 700;
-  background-color: #FAA916;
+  background-color: #FF0000;
   text-align: right;
   right: 0;
   width: 104%;
@@ -607,7 +607,7 @@ h2 {
 .page-end {
   font-family: 'Roboto', 'sans-serif';
   font-weight: 700;
-  color:#000000;
+  color: #000000;
   padding-left: auto;
   padding-right: auto;
   margin-bottom: 1em;

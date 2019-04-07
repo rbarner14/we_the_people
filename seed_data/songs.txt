@@ -1,11 +1,14 @@
 100|Fill the pothole on Beulah and Shrader.|2018-12-07|2018|12|7|
-101|Clean up the used mattresses on Lafayette.|2018-11-08|2018|11|8|
+101|Clean up the used mattresses on Lafayette.|2016-11-08|2016|11|8|
 102|Prevent the closing of 3rd Street Elementary School.|2018-11-04|2018|11|4|
 103|Stop the sewage from entering the Bay.|2019-01-15|2019|1|15|
-104|Decide what to do with vacant McDonald's lot.|2018-04-07|2018|4|7|
+104|Decide what to do with vacant McDonald's lot.|2015-04-07|2015|4|7|
 105|Speak at peace rally.|2018-09-17|2018|9|17|
 106|Lobby for the residents of Hunter's Point.|2017-12-24|2018|12|24|
 107|Clean up nuclear waste in Bay View.|2019-03-14|2019|3|14|
 108|Increase funding for afterschool program.|2019-02-14|2019|2|14|
 109|Donate to Glide Church's Thanksgiving Turkey Carving.|2015-11-24|2015|11|24|
-110|Lobby for bill to demand employers in the San Francisco county to practice equal pay.|2016-01-07|2016|1|7|
+110|Lobby for bill to demand employers in the San Francisco county to practice equal pay.|2019-01-07|2019|1|7|
+111|Demand the resignation of council committee lead.|2019-01-08|2019|1|7|
+112|Advocate for the increase in funding for STEM programs for K-12 students.|2019-03-14|2019|3|14|
+113|Lobby again for bill to demand employers in the San Francisco county to practice equal pay.|2019-04-06|2016|4|6|
