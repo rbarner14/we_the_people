@@ -132,7 +132,7 @@ def producer_detail(producer_id):
     """Show producer's details."""
 
     # URL from which to make API calls.
-    URL = f"https://genius.com/api/artists/{producer_id}"
+    # URL = f"https://genius.com/api/artists/{producer_id}"
 
     # Method "joinedload" employed to reduce # of queries run for output.
     producer = Producer.query.options(db.joinedload("albums")
@@ -149,27 +149,27 @@ def producer_detail(producer_id):
                               for album in albums]
                              ),reverse=True)
 
-    j = requests.get(URL).json()
+    # j = requests.get(URL).json()
 
     # If call is successful, access JSON object.
-    if j["meta"]["status"] == 200:
-        bio = j["response"]["artist"].get("description_preview","")
+    # if j["meta"]["status"] == 200:
+    #     bio = j["response"]["artist"].get("description_preview","")
 
     # Store producer_id in session.
     session["producer_id"] = producer_id
 
     # Return related performers with knn ML algorithm.
-    data = pd.read_csv('seed_data/scores.csv')
-    d = data.pivot(index='producer_id', columns='performer_id', values='score')
+    # data = pd.read_csv('seed_data/scores.csv')
+    # d = data.pivot(index='producer_id', columns='performer_id', values='score')
     # knn
-    model = joblib.load('static/model/trained-model_producers.pkl')
+    # model = joblib.load('static/model/trained-model_producers.pkl')
 
     # Shape model to the dimensions of the dataset.
-    dist, ind = model.kneighbors(d.loc[producer_id,:].values.reshape(1, -1))
-    related_producers = [list(d.index)[i] for i in ind[0]]
-    # The producer being searched is included in the neighbors list.  Remove it
-    # before passing list to Jinja with pop left equivalent method.
-    related_producers.pop(0)
+    # dist, ind = model.kneighbors(d.loc[producer_id,:].values.reshape(1, -1))
+    # related_producers = [list(d.index)[i] for i in ind[0]]
+    # # The producer being searched is included in the neighbors list.  Remove it
+    # # before passing list to Jinja with pop left equivalent method.
+    # related_producers.pop(0)
 
     # Calculate page_runtime.
     # print(f"total_time = {end_time - start_time}")
@@ -177,9 +177,9 @@ def producer_detail(producer_id):
     return render_template("producer.html",
                             producer=producer,
                             all_producers=all_producers,
-                            album_years=album_years,
-                            bio=bio,
-                            related_producers=related_producers
+                            album_years=album_years
+                            # bio=bio,
+                            # related_producers=related_producers
                           )
 
 

@@ -33,38 +33,33 @@
               <!-- Show producer's signature. -->
               {% if producer.producer_tag_url %}
                 <div class="signature">
-                  <b>Signature</b>: 
+                  <b>Recent Speech</b>: 
                   <iframe width="40" height="40" src="{{ producer.producer_tag_url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                   </iframe>
                 </div>
               {% endif %}
               <div class="bio">
-                {{ bio }}
+                London Nicole Breed (born August 11, 1974) is an American politician from California who is the 45th mayor of the City and County of San Francisco. She formerly served as supervisor for District 5, and was president of the Board of Supervisors from 2015 to 2018.
+
+Raised in poverty in the Western Addition neighborhood of San Francisco, Breed worked in government after college. She was elected to the Board of Supervisors in 2012 (taking office in January 2013), and elected its president in 2015. As president of the Board, Breed, according to the city charter, became the acting mayor of San Francisco following the death of Mayor Ed Lee. She served in this role from December 12, 2017 to January 23, 2018.
+
+Breed was the winning candidate in the San Francisco mayoral special election held on June 5, 2018. Breed is the first black woman and second woman overall to be elected mayor of San Francisco. She was sworn in as mayor on July 11, 2018.
               </div>
             </div>
           </div>
 
               <!-- Show related producers. -->
               <div class="related_artists">
-                <b>Related producers</b>:
-                
-                {% set comma = joiner(",") %}
-                {% for producer in all_producers %}
-                    {% if producer.producer_id in related_producers %}
-                      <!-- Comma separate related producer list. -->
-                      {{ comma() }} <a href="/producers/{{ producer.producer_id }}">{{ producer.producer_name }}</a>
-                    {% endif %}
-                {% endfor %}
-                <div id="attribution-links">
+<!--                 <div id="attribution-links">
                   Thanks, <a href= "https://genius.com/" alt="Genius"><img src="http://images.genius.com/8ed669cadd956443e29c70361ec4f372.1000x1000x1.png" width="25" height="20" ></a> and <a href="https://geo.itunes.apple.com/us/" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:40px;height:40px;"></a>!
-                </div>
+                </div> -->
               </div>
           </nav>
         </aside>
         <div id="page-contents" class="col-sm-9">
           <div id="sub-page-contents">
             {% if producer.songs %}
-              <div class="charts-header">Number of songs {{ producer.producer_name }} has produced by performer</div>
+              <div class="charts-header">Number of tickets {{ producer.producer_name }} has completed by SDG</div>
 
               <!-- Show producer's performer frequency donut chart. -->
               <div class="donut_chart">
