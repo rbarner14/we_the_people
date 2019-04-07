@@ -3,6 +3,10 @@ html, body {
   height: 100%; 
 }
 
+#registration-form {
+  margin:10em 10em 10em 10em;
+}
+
 .producer-status {
   font-family: 'Rock Salt', cursive;
   font-size: 20px;

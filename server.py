@@ -36,6 +36,18 @@ def index():
 
     return render_template("homepage.html")
 
+@app.route("/register")
+def register():
+    """Show registration page."""
+
+    return render_template("register.html")
+
+@app.route("/create_ticket")
+def create_ticket():
+    """Show registration page."""
+
+    return render_template("create_ticket.html")
+
 
 @app.route("/search_result", methods=["GET"])
 def return_search_result():
