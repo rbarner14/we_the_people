@@ -11,13 +11,14 @@ We the People gives voice to 15 million young citizens who don’t yet vote, and
 <a name="overview"/></a>
 ## Overview
 We the People was built to:
+ * Solve a problem classified in the 16th sustainable development goal: Peace, Justice and Strong Institutions.
  * Teach young people the power of voting and enable them to contribute to their communities in ways other than voting.
  * Build awareness of the politicians and initiatives being solved in everyon's communitites.
  * inspire people to not wait for politicians to fix their problems, as creating sustainable communities is everyone's responsibility.
 
 <a name="techstack"/></a>
 ## Tech Stack
-**Frontend:** JavaScript (AJAX, JSON, React), Jinja, jQuery, Bootstrap</br>
+**Frontend:** JavaScript (AJAX, JSON), Jinja, jQuery, Bootstrap</br>
 **Backend:** Python, Flask, SQLAlchemy, PostgreSQL<br/>
 **Libraries:** Chart.js<br/>
 **API:** Genius<br/>
