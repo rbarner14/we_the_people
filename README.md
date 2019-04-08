@@ -90,6 +90,11 @@ https://www.youtube.com/watch?v=PKJS85Cgvd4
 ![Graph](/static/images/readme/initiatives_graph.png)
 <br/>
 
+**Create ticket.** 
+<br/><br/>
+![Ticket](/static/images/readme/ticket.png)
+<br/>
+
 
 **Thanks for exploring!**
 
