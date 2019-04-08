@@ -63,7 +63,8 @@ Navigate to localhost:5000 in browser.
 <a name="demo"/></a>
 ## Demo
 
-https://www.youtube.com/watch?v=PKJS85Cgvd4
+Demo: https://www.youtube.com/watch?v=PKJS85Cgvd4
+Deck: https://docs.google.com/presentation/d/1dTV-_EOFS9F1QQNoe2vPRbyFl1yXH6luzDwZ-8JardY/edit#slide=id.g55a3c7e93a_0_14
 
 **Sustainable development goals.**
 <br/><br/>
