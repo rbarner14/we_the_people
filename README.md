@@ -63,9 +63,9 @@ Navigate to localhost:5000 in browser.
 <a name="demo"/></a>
 ## Demo
 
-[**Demo**] (https://www.youtube.com/watch?v=PKJS85Cgvd4 "YouTube video of Demo")
+[**Demo**](https://www.youtube.com/watch?v=PKJS85Cgvd4 "YouTube video of Demo")
 <br/><br/>
-[**Deck**] (https://docs.google.com/presentation/d/1dTV-_EOFS9F1QQNoe2vPRbyFl1yXH6luzDwZ-8JardY/edit#slide=id.g55a3c7e93a_0_14
+[**Deck**](https://docs.google.com/presentation/d/1dTV-_EOFS9F1QQNoe2vPRbyFl1yXH6luzDwZ-8JardY/edit#slide=id.g55a3c7e93a_0_14
 <br/><br/> "Google Slides Presentation")
 
 **Sustainable development goals.**
