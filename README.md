@@ -66,7 +66,7 @@ Navigate to localhost:5000 in browser.
 [**Demo**](https://www.youtube.com/watch?v=PKJS85Cgvd4 "YouTube video of Demo")
 <br/><br/>
 [**Deck**](https://docs.google.com/presentation/d/1dTV-_EOFS9F1QQNoe2vPRbyFl1yXH6luzDwZ-8JardY/edit#slide=id.g55a3c7e93a_0_14
-<br/><br/> "Google Slides Presentation")
+<br/><br/> "Google Slides Deck")
 
 **Sustainable development goals.**
 <br/><br/>
