@@ -1,5 +1,5 @@
 # We the People
-We the People gives voice to 15 million young citizens who don’t yet vote, and all other members of society who can. Citizens can view other citizens in their jurisdiction and assign tickets to them to complete various initiatives they care about. They can also create tickets for themselves and display their progression on them on their profiles.
+We the People gives voice to 15 million young citizens who don’t yet vote, and all other members of society who can. Citizens can view other citizens and assign tickets to them to complete various initiatives they care about. They can also create tickets for themselves and display their progression on them on their profiles.
 
 ## Table of Contents
 * [Overview](#overview)</br>
