@@ -27,7 +27,7 @@ We the People was built to:
 ## Setup/Installation
 On local machine, go to desired directory.  Clone protag repository:
 ```
-$ git clone https://github.com/rbarner14/protag.git
+$ git clone https://github.com/rbarner14/we_the_people.git
 ```
 Create a virtual environment in the directory:
 ```
